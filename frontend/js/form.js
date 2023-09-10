@@ -1,5 +1,4 @@
 import { API_URL } from '../config.js';
-
 ///////////////////////////////////
 // Variables
 const loginHeaderText = document.querySelector('.title-text .login');
@@ -15,6 +14,7 @@ const toResetLink = document.querySelector('.to-reset-email-link');
 const showPassCheckbox = document.querySelector('#show-pass-checkbox');
 
 signupSlider.onclick = () => {
+  console.log('here');
   loginForm.style.marginLeft = '-50%';
   loginHeaderText.style.marginLeft = '-50%';
 };

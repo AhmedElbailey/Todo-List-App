@@ -51,7 +51,7 @@
 98D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\validator\lib\isISO8601.js133386357693721352 0
 97D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\side-channel\CHANGELOG.md133382320926571167 0
 94D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\semver\functions\eq.js133382320927355084 0
-67D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend133388431000107618 1
+67D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend133388499621503255 1
 101D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\validator\lib\isByteLength.js133386357690543982 0
 76D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\package-lock.json133388273062503761 0
 130D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\caniuse-lite\data\features\justify-content-space-evenly.js133388240362419627 0
@@ -74,7 +74,7 @@
 92D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\fp\isEqual.js133386357701320682 0
 119D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\node-fetch\node_modules\whatwg-url\lib\utils.js133386357683847851 0
 95D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@swc\helpers\_\_type_of133388251014551221 1
-69D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\.gitignore133388252816503917 0
+69D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\.gitignore133388432768233799 0
 98D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\whatwg-url\lib\Function.js133382315109575828 0
 86D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\balanced-match133388251041503468 1
 123D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\csso\node_modules\css-tree\lib\syntax\node\Value.js133388240355926379 0
@@ -92,7 +92,7 @@
 125D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongoose\node_modules\mongodb\lib\sdam\monitor.js.map133382315130128846 0
 107D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\object-inspect\package-support.json133382320928353122 0
 83D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\timsort\src133388251367286104 1
-100D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-verif.03822bc5.js.map133388431011128870 0
+100D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-verif.03822bc5.js.map133388499622131660 0
 114D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\css-tree\cjs\syntax\node\ClassSelector.cjs133388240305765424 0
 113D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongoose\lib\options\SchemaDateOptions.js133382315129380836 0
 90D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\raw-body\README.md133382323057823938 0
@@ -478,7 +478,7 @@
 76D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\csso133388251129705244 1
 94D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\_arrayReduce.js133386357684556808 0
 112D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongoose\node_modules\mongodb\LICENSE.md133382315131460714 0
-96D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-new-password.html133388431010969292 0
+96D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-new-password.html133388499621952123 0
 77D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\debug133388251135995089 1
 98D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\validator\lib\blacklist.js133386357684047644 0
 153D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongoose\node_modules\mongodb\lib\cmap\auth\mongodb_oidc\token_entry_cache.js.map133382315130862320 0
@@ -693,7 +693,7 @@
 77D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\socks133388251363921722 1
 127D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js133382315120210566 0
 88D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash.isinteger133388251205580416 1
-107D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-new-password.0eb57471.js.map133388431011128870 0
+107D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-new-password.0eb57471.js.map133388499622131660 0
 138D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology_description.js.map133382315130902206 0
 92D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\picocolors\README.md133388240291163137 0
 134D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\dom-serializer\node_modules\entities\lib\decode_codepoint.d.ts133388240306341055 0
@@ -1342,7 +1342,7 @@
 100D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\fp\_convertBrowser.js133386357693952434 0
 94D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\_getFuncName.js133386357696248322 0
 91D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\debug\karma.conf.js133382320924452340 0
-78D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\js\form.js133388422319188543 0
+78D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\js\form.js133388480932493442 0
 100D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\svgo\plugins\cleanupAttrs.js133388240303521866 0
 96D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lmdb\src\compression.cpp133388240337999463 0
 94D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\_baseOrderBy.js133386357692105718 0
@@ -1745,7 +1745,6 @@
 89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mime\CHANGELOG.md133382320925606560 0
 95D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\validator\lib\isSlug.js133386357696610516 0
 90D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\toNumber.js133386357704541353 0
-86D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\images\checked.png133384680384023140 0
 104D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\validator\lib\isSurrogatePair.js133386357696669505 0
 127D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\css-select\node_modules\domutils\lib\esm\index.d.ts.map133388240311665551 0
 102D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\simple-update-notifier\LICENSE133382320909785830 0
@@ -3417,6 +3416,7 @@
 90D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\posthtml\readme.md133388240291636942 0
 108D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongodb\lib\cmap\auth\mongocr.js.map133382315130682800 0
 118D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\caniuse-lite\data\features\devicepixelratio.js133388240358014412 0
+91D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\index.4300370d.css133388499621962062 0
 121D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\utils\test\input\sourcemap\source-root.js133388240336167368 0
 91D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\nodemailer\lib\dkim133388251331116036 1
 109D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\posthtml\node_modules\posthtml-parser133388251339040473 1
@@ -3660,7 +3660,7 @@
 89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\nopt\package.json133382320912000998 0
 122D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongoose\node_modules\mongodb\lib\change_stream.js133382315117028362 0
 86D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\nopt\README.md133382320916618167 0
-76D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\app.html133388236798447273 0
+76D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\app.html133388451983603773 0
 88D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\nopt\lib\nopt.js133382320925700833 0
 99D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\nopt\examples\my-program.js133382320924660052 0
 98D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\csso\node_modules\css-tree133388251131694864 1
@@ -4019,9 +4019,9 @@
 98D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\msgpackr\dist\node.cjs.map133388240321815778 0
 93D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\msgpackr\dist\test.js133388240310087759 0
 113D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\minizlib\node_modules\minipass\index.d.ts133386357682550115 0
-90D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\index.5eb14e64.js133388431010969292 0
+90D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\index.5eb14e64.js133388499621962062 0
 109D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongodb\lib\operations\run_command.js133382315125118477 0
-94D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\index.5eb14e64.js.map133388431011128870 0
+94D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\index.5eb14e64.js.map133388499622131660 0
 113D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongodb\lib\operations\run_command.js.map133382315131091715 0
 121D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\caniuse-lite\data\features\es6-string-includes.js133388240358636222 0
 153D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\8-restructRuleset.js133388240295055597 0
@@ -4343,7 +4343,7 @@
 115D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongoose\lib\options\SchemaStringOptions.js133382315129610252 0
 115D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\caniuse-lite\data\features\link-icon-png.js133388240362917472 0
 122D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js133382315125407369 0
-103D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-new-password.0eb57471.js133388431010969292 0
+103D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-new-password.0eb57471.js133388499621962062 0
 134D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology_description.js133382315125257772 0
 124D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js133388240335488087 0
 133D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\mongoose\node_modules\mongodb\lib\operations\aggregate.js.map133382315126524644 0
@@ -5536,7 +5536,7 @@
 109D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\make-dir\node_modules\.bin\semver.cmd133386357706236897 0
 120D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@swc\helpers\esm\_check_private_redeclaration.js133388240345256429 0
 90D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lru-cache\index.js133382320910507712 0
-93D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.18d21307.css.map133388431011128870 0
+93D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.18d21307.css.map133388499622131660 0
 137D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeDoctype.js133388240322259151 0
 94D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lru-cache\package.json133382320912070809 0
 91D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash.once\LICENSE133386458968119070 0
@@ -5630,7 +5630,7 @@
 89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\flatMap.js133386357699502560 0
 111D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\caniuse-lite\data\features\maxlength.js133388240363326427 0
 94D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\flatMapDepth.js133386357699551262 0
-80D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\css\form.css133387272550524583 0
+80D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\css\form.css133388481631336763 0
 87D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\floor.js133386357699630509 0
 103D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\caniuse-lite\data\regions\PE.js133388240365065223 0
 101D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@swc\helpers\src\_extends.mjs133388240355422002 0
@@ -5997,7 +5997,7 @@
 90D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\_hasPath.js133386357696610516 0
 97D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\_hasUnicodeWord.js133386357696662283 0
 117D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\csso\node_modules\css-tree\lib\utils\clone.js133388240350313614 0
-89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.958a91c1.css133388431010969292 0
+89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.958a91c1.css133388499621962062 0
 97D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\_initCloneByTag.js133386357696679511 0
 96D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\_isFlattenable.js133386357696709422 0
 90D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lodash\_isIndex.js133386357696729366 0
@@ -6464,7 +6464,7 @@
 100D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\css-tree\cjs\lexer\match.cjs133388240336933254 0
 97D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lmdb\dependencies\lz4\lib133388251178932050 1
 89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\anymatch\index.js133382320910908519 0
-96D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-verif.03822bc5.js133388431010969292 0
+96D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-verif.03822bc5.js133388499621962062 0
 100D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\.bin\download-lmdb-prebuilds133388240378241869 0
 105D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lmdb\dependencies\lz4\lib\LICENSE133388240304055940 0
 103D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lmdb\dependencies\lz4\lib\lz4.c133388240316613595 0
@@ -6557,7 +6557,7 @@
 115D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\caniuse-lite\data\features\online-status.js133388240364777056 0
 121D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest4.c133388240336144496 0
 121D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest5.c133388240336675368 0
-98D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\green-check1.bbf786ad.png133388431000237282 0
+98D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\green-check1.bbf786ad.png133388499621952123 0
 121D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest6.c133388240336842380 0
 89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\csso\lib\usage.js133388240342252482 0
 124D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@swc\helpers\esm\_class_private_field_destructure.js133388240345821414 0
@@ -7229,7 +7229,7 @@
 127D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@swc\helpers\src\_class_static_private_field_update.mjs133388240355258523 0
 86D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\dotenv\LICENSE133388273061496437 0
 91D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\dotenv\package.json133388273061556270 0
-83D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\index.html133388431010969292 0
+83D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\index.html133388499621952123 0
 97D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\dotenv\lib\cli-options.js133388273061506416 0
 97D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\dotenv\lib\env-options.js133388273061526368 0
 92D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\dotenv\lib\main.d.ts133388273061646028 0
@@ -7933,6 +7933,7 @@
 126D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\css-select\node_modules\entities\lib\esm\encode.js.map133388240321775868 0
 124D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\css-select\node_modules\entities\lib\esm\escape.d.ts133388240335554198 0
 122D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\css-select\node_modules\entities\lib\esm\generated133388251123590002 1
+90D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\icon.418062b5.png133388499621642917 0
 123D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\css-select\node_modules\entities\lib\esm\index.d.ts133388240335653085 0
 108D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\core\lib\loadParcelPlugin.js133388240342449573 0
 121D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\css-select\node_modules\entities\lib\esm\index.js133388240307571919 0
@@ -8722,7 +8723,7 @@
 117D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\binary-extensions\binary-extensions.json.d.ts133382320924549356 0
 98D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\binary-extensions\index.js133382320910858626 0
 97D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\binary-extensions\license133382320909736611 0
-91D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\reset-new-password.html133388236819528175 0
+91D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\reset-new-password.html133388451983673872 0
 99D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\binary-extensions\readme.md133382320922351941 0
 92D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\bcrypt\.editorconfig133386357679480665 0
 86D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\bcrypt\.github133388251042038046 1
@@ -8738,7 +8739,7 @@
 93D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\bcrypt\src\node_blf.h133386357683858302 0
 90D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\bcrypt\lib\binding133388251042153163 1
 104D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\bcrypt\examples\async_compare.js133386357683957587 0
-95D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\unchecked.601181a2.png133388431000736011 0
+95D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\unchecked.601181a2.png133388499621952123 0
 96D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\bcrypt\.github\workflows133388251042058024 1
 104D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\bcrypt\.github\workflows\ci.yaml133386357686454259 0
 140D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\sort.d.ts.map133388240309646220 0
@@ -8785,7 +8786,7 @@
 100D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@types\whatwg-url\index.d.ts133382315109690586 0
 97D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@types\whatwg-url\LICENSE133382315109476117 0
 99D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@types\whatwg-url\README.md133382315109555884 0
-96D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-email.fccb4694.js133388431010969292 0
+96D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-email.fccb4694.js133388499621962062 0
 112D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@types\whatwg-url\webidl2js-wrapper.d.ts133382315114696740 0
 103D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@types\whatwg-url\dist\URL.d.ts133382315115187021 0
 120D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@babel\highlight\node_modules\chalk\package.json133388240287889414 0
@@ -9205,6 +9206,7 @@
 122D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\utils\test\input\sourcemap\no-sourcemap.js133388240331585333 0
 133D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\prefixIds.js133388240320123828 0
 128D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js.map133388240345627301 0
+95D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\index.4300370d.css.map133388499622131660 0
 125D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\utils\test\input\sourcemap\source-root.js.map133388240345761573 0
 111D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\utils\test\input\config\.testrc133388240288248521 0
 114D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\utils\test\input\config\config.cjs133388240290150784 0
@@ -9427,7 +9429,7 @@
 106D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\reporter-cli\src\render.js133388240304486943 0
 111D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\reporter-cli\lib\CLIReporter.js133388240294329902 0
 115D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\reporter-cli\lib\CLIReporter.js.map133388240308821109 0
-89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.eb267b16.css133388431010969292 0
+89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.eb267b16.css133388499621952123 0
 92D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\profiler\lib133388250974166521 1
 96D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\profiler\LICENSE133388240287635976 0
 101D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\profiler\package.json133388240304466961 0
@@ -10127,7 +10129,7 @@
 125D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\core\test\fixtures\config-malformed\.parcelrc133388240290369335 0
 142D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-multiple133388240306089519 0
 115D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\core\test\fixtures\config\subfolder133388250958511040 1
-72D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist133388431011158805 1
+72D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist133388499622161524 1
 125D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\core\test\fixtures\config\subfolder\.parcelrc133388240303858311 0
 126D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\core\test\fixtures\common-targets\package.json133388240352845747 0
 105D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\@parcel\core\src\applyRuntimes.js133388240308964780 0
@@ -10393,27 +10395,25 @@
 103D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\.bin\update-browserslist-db.cmd133388240378251665 0
 103D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\node_modules\.bin\update-browserslist-db.ps1133388240378251665 0
 77D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\config.js133388429471003197 0
-74D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\images133388250949406281 1
-78D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\index.html133388369605105198 0
+74D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\images133388441251063658 1
+78D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\index.html133388481634070878 0
 70D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\js133388288025214785 1
-84D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\reset-email.html133388368925514042 0
-84D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\reset-verif.html133388236827627174 0
+84D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\reset-email.html133388451983880101 0
+84D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\reset-verif.html133388451967029406 0
 77D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\js\app.js133388422326369145 0
 85D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\js\reset-email.js133388422237225048 0
 85D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\js\reset-verif.js133388422281942335 0
 91D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\images\green-check2.png133384695417964340 0
 83D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\images\icon.png133384680384225091 0
-89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.18d21307.css133388431010969292 0
-93D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.958a91c1.css.map133388431011138841 0
-88D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.bb1dc7a1.js133388431010969292 0
-92D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.bb1dc7a1.js.map133388431011138841 0
-93D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.eb267b16.css.map133388431011128870 0
-81D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.html133388431010969292 0
-91D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\index.c6303ca3.css133388431010969292 0
-95D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\index.c6303ca3.css.map133388431011128870 0
-100D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-email.fccb4694.js.map133388431011128870 0
-89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-email.html133388431010969292 0
-89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-verif.html133388431010969292 0
+89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.18d21307.css133388499621962062 0
+93D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.958a91c1.css.map133388499622141575 0
+88D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.bb1dc7a1.js133388499621962062 0
+92D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.bb1dc7a1.js.map133388499622141575 0
+93D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.eb267b16.css.map133388499622131660 0
+81D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\app.html133388499621952123 0
+100D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-email.fccb4694.js.map133388499622131660 0
+89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-email.html133388499621952123 0
+89D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\dist\reset-verif.html133388499621952123 0
 83D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\frontend\css\queries.css133387201112267317 0
 78D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\backend\controllers133388250948128223 1
 84D:\My-Projects\Websites\Full_Projects\Full-Stack\To-Do App\backend\routes-protection133388250948266004 1

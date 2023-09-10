@@ -1,5 +1,4 @@
 import { API_URL } from '../config.js';
-
 //////////////////////////////////////
 // Variables
 const resetnewPassForm = document.querySelector('.new-password-form');

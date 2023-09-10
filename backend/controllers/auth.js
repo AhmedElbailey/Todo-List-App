@@ -124,7 +124,7 @@ exports.postSendResetEmail = async (req, res, next) => {
     // 2) Check email existance
     const user = await User.findOne({ email: email });
     if (!user) {
-      const error = new Error('Invalid E-mail');
+      const error = new Error("this email doesn't have an account");
       error.statusCode = 422;
       throw error;
     }

@@ -1,4 +1,4 @@
-import { URL } from '../config.js';
+import { API_URL } from '../config.js';
 
 ///////////////////////////////////
 // Variables
@@ -37,7 +37,7 @@ signupForm.addEventListener('submit', async e => {
     let emailInput = document.querySelector('.signup-email');
     let passwordInput = document.querySelector('.signup-password');
     let confPasswordInput = document.querySelector('.confirm-password');
-    let res = await fetch(`${URL}/signup`, {
+    let res = await fetch(`${API_URL}/signup`, {
       method: 'POST',
       body: JSON.stringify({
         email: emailInput.value,
@@ -67,7 +67,7 @@ loginForm.addEventListener('submit', async e => {
     e.preventDefault();
     let emailInput = document.querySelector('.login-email');
     let passwordInput = document.querySelector('.login-password');
-    let res = await fetch(`${URL}/login`, {
+    let res = await fetch(`${API_URL}/login`, {
       method: 'POST',
       body: JSON.stringify({
         email: emailInput.value,

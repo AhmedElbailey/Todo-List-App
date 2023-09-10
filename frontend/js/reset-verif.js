@@ -1,4 +1,4 @@
-import { URL } from '../config.js';
+import { API_URL } from '../config.js';
 
 //////////////////////////////////////
 // Variables
@@ -21,7 +21,7 @@ resetVerifCodeForm.addEventListener('submit', async e => {
     if (!email) {
       return toFormLink.click();
     }
-    let res = await fetch(`${URL}/verifcode`, {
+    let res = await fetch(`${API_URL}/verifcode`, {
       method: 'POST',
       body: JSON.stringify({
         verifCode: verifCodeInput.value,

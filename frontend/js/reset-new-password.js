@@ -1,4 +1,4 @@
-import { URL } from '../config.js';
+import { API_URL } from '../config.js';
 
 //////////////////////////////////////
 // Variables
@@ -24,7 +24,7 @@ resetnewPassForm.onsubmit = async e => {
     if (!email || !verifCode) {
       return toFormLink.click();
     }
-    let res = await fetch(`${URL}/newPassword`, {
+    let res = await fetch(`${API_URL}/newPassword`, {
       method: 'POST',
       body: JSON.stringify({
         email: email,

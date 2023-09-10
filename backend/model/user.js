@@ -11,12 +11,6 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
-    todosId: [
-      {
-        type: Schema.Types.ObjectId,
-        ref: 'Todo',
-      },
-    ],
 
     verifCode: String,
   },

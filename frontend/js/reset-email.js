@@ -1,4 +1,4 @@
-import { URL } from '../config.js';
+import { API_URL } from '../config.js';
 
 //////////////////////////////////////
 // Variables
@@ -14,7 +14,7 @@ resetEmailForm.addEventListener('submit', async e => {
   try {
     e.preventDefault();
     const emailInput = document.querySelector('.email');
-    let res = await fetch(`${URL}/email`, {
+    let res = await fetch(`${API_URL}/email`, {
       method: 'POST',
       body: JSON.stringify({
         email: emailInput.value,

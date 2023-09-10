@@ -1,3 +1,3 @@
-const URL = 'http://localhost:3000';
+const API_URL = 'https://todo-list-app-aqg0.onrender.com';
 
-export { URL };
+export { API_URL };

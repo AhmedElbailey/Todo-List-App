@@ -6,10 +6,9 @@ const User = require('../model/user');
 exports.readAllTodos = async (req, res, next) => {
   try {
     const todosArr = await Todo.aggregate([
-      { $match: { _id: { $in: req.user.todosId } } },
+      { $match: { userId: req.user._id } },
       { $sort: { createdAt: 1 } },
     ]);
-    // const todosArr = await Todo.aggregate([{ $sort: { createdAt: 1 } }]);
 
     return res.status(200).json({
       statusCode: 200,
@@ -38,9 +37,6 @@ exports.createTodo = async (req, res, next) => {
         userId: new ObjectId(req.userId),
       },
     ]);
-    // Add todo id to user document
-    user.todosId.push(todo._id);
-    await user.save();
 
     return res.status(200).json({
       message: 'todo created successfully',
@@ -64,18 +60,8 @@ exports.createTodo = async (req, res, next) => {
 
 exports.deleteTodo = async (req, res, next) => {
   try {
-    let user = req.user;
     let todoId = req.body.todoId;
-    // Using transactions
-    const session = await mongoose.startSession();
-    await session.withTransaction(async () => {
-      //// Delete Todo document
-      await Todo.findByIdAndDelete(todoId).session(session).exec();
-      //// Delete Todo id from user document
-      user.todosId.pull(new ObjectId(todoId));
-      await user.save();
-    });
-    await session.endSession();
+    await Todo.findByIdAndDelete(todoId);
 
     return res.status(200).json({
       statusCode: 200,

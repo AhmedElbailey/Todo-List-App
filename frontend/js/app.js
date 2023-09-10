@@ -1,4 +1,4 @@
-import { URL } from '../config.js';
+import { API_URL } from '../config.js';
 ///////////////////////////////////////
 // Variables///////////////////////////
 const todoForm = document.querySelector('.todo-form');
@@ -24,7 +24,7 @@ window.addEventListener('load', async () => {
     if (!token) {
       return toFormLink.click();
     }
-    const res = await fetch(`${URL}/checkAuth`, {
+    const res = await fetch(`${API_URL}/checkAuth`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -37,7 +37,7 @@ window.addEventListener('load', async () => {
     if (localStorage.getItem('todos') == null) {
       console.log('from server');
       // fetch todos from server
-      const response = await fetch(`${URL}/todo`, {
+      const response = await fetch(`${API_URL}/todo`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -69,7 +69,7 @@ window.addEventListener('load', async () => {
 todoForm.addEventListener('submit', async e => {
   try {
     e.preventDefault();
-    const response = await fetch(`${URL}/todo`, {
+    const response = await fetch(`${API_URL}/todo`, {
       method: 'POST',
       body: JSON.stringify({
         text: textInput.value,
@@ -85,7 +85,7 @@ todoForm.addEventListener('submit', async e => {
     if (data.statusCode !== 200) {
       throw new Error(data.message);
     }
-    // textInput.value = '';
+    textInput.value = '';
     state.allTodos.push(data.data);
     localStorage.setItem('todos', JSON.stringify(state.allTodos));
     renderNewTodo(data.data);
@@ -105,7 +105,7 @@ document.body.addEventListener('click', async e => {
       Boolean(e.target.closest('.trash-icon'))
     ) {
       const todoId = e.target.closest('li').getAttribute('data-id');
-      const res = await fetch(`${URL}/todo`, {
+      const res = await fetch(`${API_URL}/todo`, {
         method: 'DELETE',
         body: JSON.stringify({
           todoId: todoId,
@@ -207,7 +207,7 @@ document.body.addEventListener('click', async e => {
 async function editTodo(todoId, newText, newPriority) {
   try {
     // Update in server
-    const res = await fetch(`${URL}/todo`, {
+    const res = await fetch(`${API_URL}/todo`, {
       method: 'PATCH',
       body: JSON.stringify({
         todoId: todoId,
@@ -247,7 +247,7 @@ window.addEventListener('click', async e => {
     if (!e.target.classList.contains('completed')) {
       const todoId = e.target.getAttribute('data-id');
       // Update in server
-      const res = await fetch(`${URL}/todo/complete`, {
+      const res = await fetch(`${API_URL}/todo/complete`, {
         method: 'PATCH',
         body: JSON.stringify({
           todoId: todoId,
@@ -274,7 +274,7 @@ window.addEventListener('click', async e => {
     } else if (e.target.classList.contains('completed')) {
       const todoId = e.target.getAttribute('data-id');
       // Update in server
-      const res = await fetch(`${URL}/todo/pend`, {
+      const res = await fetch(`${API_URL}/todo/pend`, {
         method: 'PATCH',
         body: JSON.stringify({
           todoId: todoId,

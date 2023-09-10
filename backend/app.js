@@ -1,8 +1,9 @@
 const express = require('express');
 const app = express();
 
-const MONGODB_URL =
-  'mongodb+srv://Ahmed_Adel:Ahmed_123456789@cluster0.trguitc.mongodb.net/todo-V2?retryWrites=true&w=majority';
+require('dotenv').config();
+
+const MONGODB_URL = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0.trguitc.mongodb.net/${process.env.MONGO_DEFAULT_DATABASE}?retryWrites=true&w=majority`;
 /////////////////////////////////////////
 // Input formats
 const bodyParser = require('body-parser');
@@ -32,7 +33,7 @@ const mongoose = require('mongoose');
 mongoose
   .connect(MONGODB_URL)
   .then(client => {
-    app.listen(7000);
+    app.listen(process.env.PORT || 3000);
   })
   .catch(err => {
     console.log('connection error: ', err);

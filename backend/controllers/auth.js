@@ -8,8 +8,8 @@ const nodemailer = require('nodemailer');
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'aa5707139@gmail.com',
-    pass: 'rkeajavzfzbggfyp',
+    user: process.env.GMAIL_AUTH_USER,
+    pass: process.env.GMAIL_AUTH_PASSWORD,
   },
 });
 
@@ -18,7 +18,7 @@ exports.getCheckAuth = async (req, res, next) => {
   const token = req.get('Authorization').split(' ')[1];
   const decodedToken = jwt.verify(
     token,
-    'longsecretsecrettext',
+    process.env.JWT_SECRET,
     function (err, decoded) {
       if (err) {
         return res.status(401).json({
@@ -93,7 +93,7 @@ exports.postLogin = async (req, res, next) => {
     // Create a JWT
     const token = jwt.sign(
       { userId: user._id.toString() },
-      'longsecretsecrettext',
+      process.env.JWT_SECRET,
       { expiresIn: '12hr' }
     );
 
@@ -144,7 +144,7 @@ exports.postSendResetEmail = async (req, res, next) => {
 
         // 5) Send email with verification code
         let mailOptions = {
-          from: 'aa5707139@gmail.com',
+          from: process.env.GMAIL_AUTH_USER,
           to: email,
           subject: 'Verification Code',
           text: `Your verification Code is: ${token}`,

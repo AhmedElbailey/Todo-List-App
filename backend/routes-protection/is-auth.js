@@ -3,7 +3,7 @@ const User = require('../model/user');
 const ObjectId = require('mongoose').Types.ObjectId;
 module.exports = (req, res, next) => {
   const token = req.get('Authorization').split(' ')[1];
-  jwt.verify(token, 'longsecretsecrettext', function (err, decodedToken) {
+  jwt.verify(token, process.env.JWT_SECRET, function (err, decodedToken) {
     if (err) {
       return res.status(401).json({
         statusCode: 401,

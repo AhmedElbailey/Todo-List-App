@@ -1,4 +1,5 @@
 import { API_URL } from '../config.js';
+import { showSpiner, hideSpiner } from './helpers.js';
 ///////////////////////////////////
 // Variables
 const loginHeaderText = document.querySelector('.title-text .login');
@@ -12,6 +13,8 @@ const errorMsgContainer = document.querySelector('.error-msg-container');
 const toAppLink = document.querySelector('.to-app-link');
 const toResetLink = document.querySelector('.to-reset-email-link');
 const showPassCheckbox = document.querySelector('#show-pass-checkbox');
+const signupBtn = document.querySelector('.signup-btn');
+const loginBtn = document.querySelector('.login-btn');
 
 signupSlider.onclick = () => {
   console.log('here');
@@ -37,6 +40,9 @@ signupForm.addEventListener('submit', async e => {
     let emailInput = document.querySelector('.signup-email');
     let passwordInput = document.querySelector('.signup-password');
     let confPasswordInput = document.querySelector('.confirm-password');
+    // Display loading spin
+    showSpiner(signupBtn);
+
     let res = await fetch(`${API_URL}/signup`, {
       method: 'POST',
       body: JSON.stringify({
@@ -55,10 +61,13 @@ signupForm.addEventListener('submit', async e => {
     emailInput.value = '';
     passwordInput.value = '';
     confPasswordInput.value = '';
+    hideSpiner(signupBtn, 'SignUp');
     loginSlider.click();
   } catch (err) {
     errorMsgContainer.innerText = '';
     errorMsgContainer.insertAdjacentText('afterbegin', err.message);
+    // Hide loading spin
+    hideSpiner(signupBtn, 'SignUp');
   }
 });
 
@@ -67,6 +76,7 @@ loginForm.addEventListener('submit', async e => {
     e.preventDefault();
     let emailInput = document.querySelector('.login-email');
     let passwordInput = document.querySelector('.login-password');
+    showSpiner(loginBtn);
     let res = await fetch(`${API_URL}/login`, {
       method: 'POST',
       body: JSON.stringify({
@@ -86,11 +96,14 @@ loginForm.addEventListener('submit', async e => {
 
     // Delete all todos in local storage to prepare local storage for new user todos
     localStorage.removeItem('todos');
+
+    hideSpiner(loginBtn, 'Login');
     // Redirect to main todo apps
     toAppLink.click();
   } catch (err) {
     errorMsgContainer.innerText = '';
     errorMsgContainer.insertAdjacentText('afterbegin', err.message);
+    hideSpiner(loginBtn, 'Login');
   }
 });
 

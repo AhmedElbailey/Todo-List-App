@@ -4,10 +4,12 @@ import { API_URL } from '../config.js';
 const todoForm = document.querySelector('.todo-form');
 const textInput = document.querySelector('.text-input');
 const priorityInput = document.querySelector('#priority-input');
-const submitBtn = document.querySelector('.submit-btn');
 const container = document.querySelector('#root');
 const errMsgContainer = document.querySelector('.error-msg-container');
 const toFormLink = document.querySelector('.to-form-link');
+const submitBtn = document.querySelector('.submit-btn');
+const editBtn = document.querySelector('.edit-btn');
+const deleteBtn = document.querySelector('.delete-btn');
 let token;
 
 const state = {
@@ -90,7 +92,6 @@ todoForm.addEventListener('submit', async e => {
     localStorage.setItem('todos', JSON.stringify(state.allTodos));
     renderNewTodo(data.data);
   } catch (err) {
-    console.log(err);
     errMsgContainer.innerText = '';
     errMsgContainer.insertAdjacentText('afterbegin', err.message);
   }

@@ -1,10 +1,12 @@
 import { API_URL } from '../config.js';
+import { showSpiner, hideSpiner } from './helpers.js';
 //////////////////////////////////////
 // Variables
 const resetnewPassForm = document.querySelector('.new-password-form');
 const errorMsgContainer = document.querySelector('.error-msg-container');
 const toFormBtn = document.querySelector('.to-form-btn');
 const toFormLink = document.querySelector('.to-form-link');
+const submitNewPasswordBtn = document.querySelector('.submit-newPassword-btn');
 //////////////////////////////////////
 // Functions
 toFormBtn.onclick = () => {
@@ -14,6 +16,7 @@ toFormBtn.onclick = () => {
 resetnewPassForm.onsubmit = async e => {
   try {
     e.preventDefault();
+    showSpiner(submitNewPasswordBtn);
     const newPassInput = document.querySelector('.new-password');
     const confirmNewPassInput = document.querySelector('.confirm-new-password');
     const email = JSON.parse(localStorage.getItem('todo-app-reset-email'));
@@ -21,6 +24,7 @@ resetnewPassForm.onsubmit = async e => {
       localStorage.getItem('todo-app-reset-verifcode')
     );
     if (!email || !verifCode) {
+      hideSpiner(submitNewPasswordBtn, 'Submit');
       return toFormLink.click();
     }
     let res = await fetch(`${API_URL}/newPassword`, {
@@ -42,9 +46,11 @@ resetnewPassForm.onsubmit = async e => {
     }
     localStorage.removeItem('todo-app-reset-email');
     localStorage.removeItem('todo-app-reset-verifcode');
+    hideSpiner(submitNewPasswordBtn, 'Submit');
     toFormLink.click();
   } catch (err) {
     errorMsgContainer.innerText = '';
     errorMsgContainer.insertAdjacentText('afterbegin', err.message);
+    hideSpiner(submitNewPasswordBtn, 'Submit');
   }
 };

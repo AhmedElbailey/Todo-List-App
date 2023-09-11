@@ -15,9 +15,10 @@ const toResetLink = document.querySelector('.to-reset-email-link');
 const showPassCheckbox = document.querySelector('#show-pass-checkbox');
 const signupBtn = document.querySelector('.signup-btn');
 const loginBtn = document.querySelector('.login-btn');
+let passwordInput = document.querySelector('.signup-password');
+let confPasswordInput = document.querySelector('.confirm-password');
 
 signupSlider.onclick = () => {
-  console.log('here');
   loginForm.style.marginLeft = '-50%';
   loginHeaderText.style.marginLeft = '-50%';
 };
@@ -61,6 +62,8 @@ signupForm.addEventListener('submit', async e => {
     emailInput.value = '';
     passwordInput.value = '';
     confPasswordInput.value = '';
+    errorMsgContainer.innerText = '';
+    hideSignupPassword();
     hideSpiner(signupBtn, 'SignUp');
     loginSlider.click();
   } catch (err) {
@@ -98,6 +101,7 @@ loginForm.addEventListener('submit', async e => {
     localStorage.removeItem('todos');
 
     hideSpiner(loginBtn, 'Login');
+    errorMsgContainer.innerText = '';
     // Redirect to main todo apps
     toAppLink.click();
   } catch (err) {
@@ -108,8 +112,6 @@ loginForm.addEventListener('submit', async e => {
 });
 
 showPassCheckbox.addEventListener('change', e => {
-  let passwordInput = document.querySelector('.signup-password');
-  let confPasswordInput = document.querySelector('.confirm-password');
   if (showPassCheckbox.value === 'unchecked') {
     showPassCheckbox.value = 'checked';
     passwordInput.setAttribute('type', 'text');
@@ -120,3 +122,7 @@ showPassCheckbox.addEventListener('change', e => {
     confPasswordInput.setAttribute('type', 'password');
   }
 });
+
+function hideSignupPassword() {
+  if (showPassCheckbox.value === 'checked') showPassCheckbox.click();
+}

@@ -15,6 +15,7 @@ resetEmailForm.addEventListener('submit', async e => {
     e.preventDefault();
     showSpiner(sendEmailBtn);
     const emailInput = document.querySelector('.email');
+    console.log(emailInput.value);
     let res = await fetch(`${API_URL}/email`, {
       method: 'POST',
       body: JSON.stringify({
@@ -25,6 +26,7 @@ resetEmailForm.addEventListener('submit', async e => {
       },
     });
     let data = await res.json();
+    console.log(data);
     if (data.statusCode !== 200) {
       throw new Error(data.message);
     }
@@ -33,6 +35,7 @@ resetEmailForm.addEventListener('submit', async e => {
       JSON.stringify(emailInput.value)
     );
     hideSpiner(sendEmailBtn, 'Send');
+    errorMsgContainer.innerText = '';
     toVerifCodeLink.click();
   } catch (err) {
     errorMsgContainer.innerText = '';

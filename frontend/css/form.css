@@ -230,7 +230,7 @@ input:-internal-autofill-selected {
   color: red;
 }
 
-.signup-showpassword-container {
+.show-password-container {
   display: flex;
   gap: 0.5rem;
   align-items: center;

@@ -7,9 +7,6 @@ const priorityInput = document.querySelector('#priority-input');
 const container = document.querySelector('#root');
 const errMsgContainer = document.querySelector('.error-msg-container');
 const toFormLink = document.querySelector('.to-form-link');
-const submitBtn = document.querySelector('.submit-btn');
-const editBtn = document.querySelector('.edit-btn');
-const deleteBtn = document.querySelector('.delete-btn');
 let token;
 
 const state = {
@@ -88,6 +85,7 @@ todoForm.addEventListener('submit', async e => {
       throw new Error(data.message);
     }
     textInput.value = '';
+    errMsgContainer.innerText = '';
     state.allTodos.push(data.data);
     localStorage.setItem('todos', JSON.stringify(state.allTodos));
     renderNewTodo(data.data);
@@ -125,6 +123,7 @@ document.body.addEventListener('click', async e => {
       let newStateTodos = state.allTodos.filter(
         (el, i, arr) => el._id !== todoId
       );
+      errMsgContainer.innerText = '';
       state.allTodos = [...newStateTodos];
       localStorage.setItem('todos', JSON.stringify(state.allTodos));
       renderTodosArr(state.allTodos);
@@ -229,6 +228,7 @@ async function editTodo(todoId, newText, newPriority) {
     let stateTodoIndex = state.allTodos.findIndex(
       (el, i, arr) => el._id === todoId
     );
+    errMsgContainer.innerText = '';
     state.allTodos[stateTodoIndex].text = newText;
     state.allTodos[stateTodoIndex].priorityLevel = newPriority;
     localStorage.setItem('todos', JSON.stringify(state.allTodos));
@@ -296,6 +296,7 @@ window.addEventListener('click', async e => {
       const todoIndex = state.allTodos.findIndex((el, i) => el._id === todoId);
       state.allTodos[todoIndex].todoStatus = 'pending';
       localStorage.setItem('todos', JSON.stringify(state.allTodos));
+      errMsgContainer.innerText = '';
       // renderTodosArr(state.allTodos);
     }
   } catch (err) {

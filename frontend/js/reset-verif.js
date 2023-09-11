@@ -44,6 +44,7 @@ resetVerifCodeForm.addEventListener('submit', async e => {
       JSON.stringify(verifCodeInput.value)
     );
     hideSpiner(verifyCodeBtn, 'Verify');
+    errorMsgContainer.innerText = '';
     toNewPasswordLink.click();
   } catch (err) {
     errorMsgContainer.innerText = '';

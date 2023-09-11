@@ -310,7 +310,7 @@ window.addEventListener('click', async e => {
 const filterInput = document.querySelector('#filter-select');
 filterInput.addEventListener('change', () => {
   let filter = filterInput.value;
-  if (filter === 'none') {
+  if (filter === 'all') {
     state.renderdTodos = 'all';
     return renderTodosArr(state.allTodos);
   }
